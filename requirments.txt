@@ -1,0 +1,16 @@
+# --- Core Deep Learning & NLP ---
+torch
+transformers
+datasets
+safetensors
+
+# --- Data Processing ---
+pandas
+numpy
+pyarrow
+
+# --- Utilities & Tools ---
+tqdm
+requests
+ruff
+click

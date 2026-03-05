@@ -37,13 +37,11 @@ To ensure high-fidelity legal reasoning and information retrieval, this project 
 Following the enterprise collaboration standard, the source code is modularized into the src/ directory.
 
 ```text
-Enterprise-Logistics-GraphRAG-Mungi/
-├── src/                  # Source code directory
-│   ├── __init__.py
-│   ├── data_loader.py    # Logic for loading SupplyGraph dataset
-│   └── benchmark.py      # Performance measurement & MPS optimization
-│   └── Benchmark_result.png
-├── data/                 # Local data storage (Git ignored)
-├── README.md             # Project documentation and reports
-├── requirements.txt      # Dependency list (torch, pandas, datasets)
-└── .gitignore            # Version control exclusion rules
+Enterprise-Legal-GraphRAG-Mungi/
+├── src/                 # Core logic modules
+│   ├── accelerator.py   # Device acceleration logic (MPS/CUDA)
+│   ├── data_loader.py   # Legal dataset (isaacus/legal-rag-bench) loading utilities
+│   └── benchmark.py     # Latency measurement and performance testing
+├── assets/              # Benchmark results & visualization
+├── requirements.txt     # Project dependencies
+└── README.md            
