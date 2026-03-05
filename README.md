@@ -1,4 +1,4 @@
-# Enterprise-Logistics-GraphRAG-Mungi
+# Enterprise-Legal-GraphRAG-Mungi
 
 This repository contains the implementation of a local development environment and hardware acceleration benchmarks for an enterprise-level Legal GraphRAG system.
 
